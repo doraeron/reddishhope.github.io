@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> VIEW BLOOD STOCK LEVEL </title>
+    <style type="text/css">
+        table, td, th {
+            border: thin solid black;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: black;
+            background-color: antiquewhite;
+        }
+
+        Body {
+            font-family: Calibri, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            color: white;
+            padding: 15px;
+            margin: 5px 0px;
+            border: none;
+            cursor: pointer;
+            background-color: green;
+        }
+
+        form {
+            display: inline-block;
+            border: 3px solid #f1f1f1;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
+
+        input[type=text], input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            box-sizing: border-box;
+            align-content: center;
+        }
+
+        button:hover {
+            opacity: 0.7;
+        }
+
+        .cancelbtn {
+            padding: 15px;
+            margin: 5px 0px;
+            background-color: red;
+        }
+
+
+        .container {
+            padding: 25px;
+            background-color: white;
+            align-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+</head>
+
+<body id="servicesPage">
+    <div class="parallax-window" data-parallax="scroll" data-image-src="img/pngtree-simple-earthquake-relief-donation-poster-background-psd-image_164145.jpg">
+        <div class="container-fluid">
+            <div class="row tm-brand-row">
+                <div class="col-lg-4 col-11">
+                    <div class="tm-brand-container tm-bg-white-transparent">
+                        <div class="tm-brand-texts">
+                            <h1 class="text-uppercase tm-brand-name"> REDDISH HOPE</h1>
+                            <p class="small"> Every drops is a live saver </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-1">
+                    <div class="tm-nav">
+                        <nav class="navbar navbar-expand-lg navbar-light tm-bg-white-transparent tm-navbar">
+                            <button class="navbar-toggler"
+                                    type="button"
+                                    data-toggle="collapse"
+                                    data-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <div class="tm-nav-link-highlight"></div>
+                                        <a class="nav-link" href="home.html">Home </a>
+                                    </li>
+
+
+                                    <li class="nav-item green-highlight active">
+                                        <div class="tm-nav-link-highlight"></div>
+                                        <a class="nav-link" href="#"> Update Blood Inventory <span class="sr-only">(current)</span></a>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <table>
+                    <tr><th colspan="5" style="background-color:grey"> Blood Inventory </th> </tr>
+                    <tr>
+                        <th style="background-color:lightgrey">Hospital Name</th>
+                        <th style="background-color:lightgrey">Blood Type </th>
+                        <th style="background-color:lightgrey">Quantity</th>
+                        <th style="background-color:lightgrey">Status</th>
+                        <th style="background-color:lightgrey">Latest Update</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="8">Bagan Specialist Centre</td>
+                        <td>O+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    <tr>
+                        <td>B+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>100</td>
+                        <td class=" ">Sufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>130</td>
+                        <td class=" ">Sufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>189</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>150</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="8">Hospital Seberang Jaya</td>
+                        <td>O+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    <tr>
+                        <td>B+</td>
+                        <td>50</td>
+                        <td style="background-color:crimson">Insufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>100</td>
+                        <td class=" ">Sufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>130</td>
+                        <td class=" ">Sufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>189</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>150</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="8">Hospital Kepala Batas</td>
+                        <td>O+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    <tr>
+                        <td>B+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>40</td>
+                        <td style="background-color:crimson">Insufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>60</td>
+                        <td style="background-color:crimson">Insufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>189</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>150</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="8">Hospital Bukit Mertajam</td>
+                        <td>O+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    </tr>
+                    <tr>
+                        <td>A+</td>
+                        <td>230</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:58:32</td>
+                    <tr>
+                        <td>B+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>AB+</td>
+                        <td>109</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 17:59:00</td>
+                    </tr>
+                    <tr>
+                        <td>O-</td>
+                        <td>100</td>
+                        <td class=" ">Sufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>A-</td>
+                        <td>130</td>
+                        <td class=" ">Sufficient</td>
+                        <td>12/12/2020 18:00:20</td>
+                    </tr>
+                    <tr>
+                        <td>B-</td>
+                        <td>189</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+                    <tr>
+                        <td>AB-</td>
+                        <td>150</td>
+                        <td>Sufficient</td>
+                        <td>12/12/2020 18:00:50</td>
+                    </tr>
+
+                </table>
+                <br />
+                <br />
+                
+                <button type="submit"> Done </button>
+                <button type="button" class="cancelbtn"> Send Notification To Donors Near Hospital(s) In Need </button>
+                <p></p>
+               <p> *The Blood Inventory That Lower Than 100 Is Considered As Low In Stock*</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('.tabgroup > div').hide();
+            $('.tabgroup > div:first-of-type').show();
+            $('.tabs a').click(function (e) {
+                e.preventDefault();
+                var $this = $(this),
+                    tabgroup = '#' + $this.parents('.tabs').data('tabgroup'),
+                    others = $this.closest('li').siblings().children('a'),
+                    target = $this.attr('href');
+                others.removeClass('active');
+                $this.addClass('active');
+                $(tabgroup).children('div').hide();
+                $(target).show();
+
+                // Scroll to tab content (for mobile)
+                if ($(window).width() < 992) {
+                    $('html, body').animate({
+                        scrollTop: $("#first-tab-group").offset().top
+                    }, 200);
+                }
+            })
+        });
+
+    </script>
+</body>
+</html>
